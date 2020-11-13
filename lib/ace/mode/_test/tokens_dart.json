@@ -68,7 +68,9 @@
   ["text","  "],
   ["identifier","print"],
   ["text","("],
-  ["string","'fib(20) = ${fib(20)}'"],
+  ["string","'fib(20) = "],
+  ["text","${fib(20)}"],
+  ["string","'"],
   ["text",");"]
 ],[
    "start",
@@ -330,7 +332,7 @@
   ["text",";"]
 ],[
    "start",
-  ["identifier","assert"],
+  ["keyword.control.dart","assert"],
   ["text","("],
   ["identifier","unicorn"],
   ["text"," "],
@@ -357,7 +359,7 @@
   ["text",";"]
 ],[
    "start",
-  ["identifier","assert"],
+  ["keyword.control.dart","assert"],
   ["text","("],
   ["identifier","iMeantToDoThis"],
   ["text","."],
